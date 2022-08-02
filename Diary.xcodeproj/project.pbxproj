@@ -16,6 +16,8 @@
 		14667E7C289903D1001279D2 /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14667E7B289903D1001279D2 /* DiaryCell.swift */; };
 		14667E7E28990419001279D2 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14667E7D28990419001279D2 /* StarViewController.swift */; };
 		14667E802899057D001279D2 /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14667E7F2899057D001279D2 /* StarCell.swift */; };
+		14667E82289932F8001279D2 /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14667E81289932F8001279D2 /* WriteDiaryViewController.swift */; };
+		14667E8428993646001279D2 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14667E8328993646001279D2 /* DiaryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		14667E7B289903D1001279D2 /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
 		14667E7D28990419001279D2 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		14667E7F2899057D001279D2 /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		14667E81289932F8001279D2 /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
+		14667E8328993646001279D2 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				14667E6928990112001279D2 /* SceneDelegate.swift */,
 				14667E6B28990112001279D2 /* ViewController.swift */,
 				14667E6D28990112001279D2 /* Main.storyboard */,
+				14667E8328993646001279D2 /* DiaryDetailViewController.swift */,
+				14667E81289932F8001279D2 /* WriteDiaryViewController.swift */,
 				14667E7F2899057D001279D2 /* StarCell.swift */,
 				14667E7D28990419001279D2 /* StarViewController.swift */,
 				14667E7B289903D1001279D2 /* DiaryCell.swift */,
@@ -148,9 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				14667E6C28990112001279D2 /* ViewController.swift in Sources */,
+				14667E82289932F8001279D2 /* WriteDiaryViewController.swift in Sources */,
 				14667E802899057D001279D2 /* StarCell.swift in Sources */,
 				14667E6828990112001279D2 /* AppDelegate.swift in Sources */,
 				14667E6A28990112001279D2 /* SceneDelegate.swift in Sources */,
+				14667E8428993646001279D2 /* DiaryDetailViewController.swift in Sources */,
 				14667E7C289903D1001279D2 /* DiaryCell.swift in Sources */,
 				14667E7E28990419001279D2 /* StarViewController.swift in Sources */,
 			);
