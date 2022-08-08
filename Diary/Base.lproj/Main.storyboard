@@ -200,7 +200,7 @@
         <!--Star View Controller-->
         <scene sceneID="dd0-zw-0qs">
             <objects>
-                <viewController id="RiC-oO-g1K" customClass="StarViewController" customModule="Diary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StarViewController" id="RiC-oO-g1K" customClass="StarViewController" customModule="Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sIa-gi-SBV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -247,6 +247,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="80"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="2z0-oN-uMx" id="jZq-Ns-SIE"/>
+                                            <outlet property="titleLabel" destination="5Lk-LE-NcS" id="2rS-IY-T63"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -261,6 +265,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fpE-Wg-Vw5"/>
+                    <connections>
+                        <outlet property="collectionView" destination="WTU-ac-d5f" id="9Jl-mQ-Mj7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IQd-mf-mS7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -380,7 +387,6 @@
         <!--일기장-->
         <scene sceneID="WWt-LX-ndf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QHt-Wi-iox" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="vig-Fg-Pmc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="일기장" image="folder" catalog="system" selectedImage="folder.fill" id="bOI-NF-HcC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="I07-mf-Jxk">
@@ -391,6 +397,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mIv-iY-sdv"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QHt-Wi-iox" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1664" y="104"/>
         </scene>
